@@ -1,0 +1,213 @@
+:root{
+    --color-background-nav: black;
+    --color-text:#fff;
+    --color-background:#8e44ad;
+    --color-backgroudhtml:#8e44ad;
+    --color-background-form:white;
+    --color-text-in-form:#8e44ad;
+    --color-text-black:black;
+    --color-dashboard-admin:#eeedef;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   position: relative;
+   min-height: 100vh;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+
+   justify-content: space-between;
+
+}
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background-color: var(--color-background);
+    padding: 6px 14px;
+    border-right: 2px solid white;
+}
+.sidebar .logo_content #btn{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.sidebar .nav-list li{
+    margin-bottom: 30px;
+}
+.sidebar .nav-list li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+   margin-left: 0;
+    list-style: none;
+    line-height: 50px;
+    margin-top: 20px;
+   
+}
+.sidebar .nav-list li a{
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.sidebar ul li input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+}
+.sidebar ul li a ion-icon{
+ width: 20px;
+ height: 20px;
+ text-align: center;
+}
+.sidebar ul li #icon-search{
+    width: 20px;
+    height: 20px;
+    color: var(--color-text-in-form);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    z-index: 33;
+}
+.sidebar ul li a span{
+    padding: 5px 10px;
+}
+
+.sidebar ul li a:hover{
+    color: var(--color-text-in-form);
+    background-color: var(--color-dashboard-admin);
+}
+.sidebar .profile_content{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid white;
+    width: 100%;
+    background-color: #8e44ad;
+}
+.sidebar .profile_content .profile{
+    position: relative;
+    padding: 10px 6px;
+ 
+}
+.profile_content .profile .profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.profile_content .profile .profile-details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.profile_content .profile .profile-details .avatar-img{
+    display: flex;
+    align-items: center;
+}
+.profile-details #log-out{
+    cursor: pointer;
+}
+.profile_content .profile .profile-details .name{
+    font-size: 17px;
+}
+.profile_content .profile .profile-details .job{
+    font-size: 12px;
+}
+.container{
+    background-color: #8e44ad;
+    height: 100vh;
+    margin-left: 240px;
+    width: 100vw;
+    padding:50px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .job-requirement-form {
+    height: auto;
+}
+.container .job-requirement-form h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-text);
+    font-weight: 800;
+
+
+}
+.container .job-requirement-form div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .job-requirement-form div input{
+    padding: 10px 20px;
+    border:none ;
+    outline: none;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 12px;
+}
+.container .job-requirement-form div  #description {
+    width: 200px;
+    height: 100px;
+}
+.container .job-requirement-form div label{
+    color: var(--color-text);
+
+}
+.container .job-requirement div button{
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    align-items: right;
+    margin-top: 20px;
+}
+.container .job-requirement .button {
+    display: flex;
+    justify-content: right;
+   
+}
+.container .job-requirement .button button{
+    background-color:  #009879;
+}
+.container .job-requirement .button button a{
+    color: white;
+    text-decoration: none;
+}
+.container .job-requirement-form .key  {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;  
+  margin-top: 20px;
+  
+
+}
+.container .job-requirement-form .key label{
+    margin-bottom: 5px;
+    color: var(--color-text);
+}

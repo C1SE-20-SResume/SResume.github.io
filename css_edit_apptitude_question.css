@@ -1,0 +1,85 @@
+:root{
+    --color-background-nav: black;
+    --color-text:#fff;
+    --color-background:#8e44ad;
+    --color-backgroudhtml:#8e44ad;
+    --color-background-form:white;
+    --color-text-in-form:#8e44ad;
+    --color-text-black:black;
+    --color-dashboard-admin:#eeedef;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #8e44ad;
+    height: 100vh;
+    margin-left: 240px;
+    width: 100vw;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+
+}
+.container .form-edit-apptitude-question {
+    position: relative;
+    right: 121px;
+}
+.container .form-edit-apptitude-question .form-main h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--color-text);
+    font-weight: 800;
+}
+.container .form-edit-apptitude-question .form-main div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .form-edit-apptitude-question .form-main div select {
+    padding: 10px 20px;
+    border:none ;
+    outline: none;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 12px;
+}
+.container .form-edit-apptitude-question .form-main div select option{
+    text-align: left;
+}
+.container .form-edit-apptitude-question .form-main div input{
+    padding: 10px 20px;
+    border:none ;
+    outline: none;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 12px;
+}.container .form-edit-apptitude-question .form-main div label{
+    color: var(--color-text);
+}
+.container .form-edit-apptitude-question .form-main .button {
+    display: flex;
+    justify-content: right;
+}
+.container .form-edit-apptitude-question .form-main .button button{
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    align-items: right;
+    margin-top: 20px;
+}
+.container .form-edit-apptitude-question .form-main .button button a{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-text-in-form) ;
+}
