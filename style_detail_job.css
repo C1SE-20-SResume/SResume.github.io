@@ -1,0 +1,133 @@
+:root{
+    --color-background:#8e44ad;
+    --color-text:#fff;
+    --color-button:#009879;
+    --color-black:black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main .content-about-company{
+    display: flex;
+    justify-content: center;
+  
+   
+}
+.main .content-about-company .info-company{
+    background-color:  #e9e9e9;
+    padding: 15px 20px;
+    border-radius: 15px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.main .info-company .box{
+    display: flex;
+
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   
+  
+}
+.main .info-company .box .logo{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+.main .info-company .about-more{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main .info-company .about-more ul li{
+    list-style: none;
+   margin-bottom: 5px;
+}
+.main .info-company .about-more ul li img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  
+}
+.main .info-company .about-more button{
+    padding: 10px 10px;
+    height: 40px;
+    color: var(--color-text);
+    background-color: #009879;
+    border-radius: 15px;
+}
+
+.content-main h1{
+ 
+}
+.job-reasons h3{
+    margin-bottom: 10px;
+}
+.content-main .job_sub_title{
+    margin-bottom: 20px;
+}
+.content-main .job-detail_overview{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.content-main .job-detail_overview ul li a{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.content-main .job-reasons{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.job_detail-second-title{
+    margin-bottom: 10px;
+}
+.content-main p{
+    margin-bottom: 10px;
+}
+.content-main ul{
+    border-bottom: 1px solid #e9e9e9;
+}
+.content-main ul h2{
+    margin-bottom: 10px;
+}
+.content-main ul li{
+    margin-bottom: 10px;
+}
+.button-apply-second {
+    margin-top: 20px;
+    
+
+}
+.button-apply-second div{
+    width: 420px;
+    display: flex;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.button-apply-second input{
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0;
+}
+.button-apply-second button{
+    position: relative;
+ 
+    width: 140px;
+    height: 40px;
+    background-color: #009879;
+   margin-left: 0;
+    padding: 10px 15px;
+
+}
+.button-apply-second button a{
+    color: white;
+}
